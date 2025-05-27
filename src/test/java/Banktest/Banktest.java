@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinitions"},                     // package containing step defs
         plugin = {"pretty", "html:target/cucumber-report.html"}, // report generation
         monochrome = true,                              // cleaner console output
-        dryRun = false                                   // change to true to check steps without running
+        dryRun = false                                  // change to true to check steps without running
 )
 public class Banktest {
 }
