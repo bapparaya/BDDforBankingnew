@@ -31,6 +31,13 @@ public class LoginPageSteps extends BaseClass {
        System.out.println(driver.getTitle());
     }
 
+    @Then("login should fail and user should remain on the login page")
+    public void login_should_fail_and_user_should_remain_on_the_login_page() {
+        System.out.println(driver.getTitle());
+    }
+
+
+
     @Then("the following ATM services should be displayed:")
     public void the_following_atm_services_should_be_displayed(DataTable dataTable) {
         List<String> services = dataTable.asList();
