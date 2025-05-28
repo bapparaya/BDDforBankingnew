@@ -15,7 +15,6 @@ public class LoginPageSteps extends BaseClass {
 
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
-        initialize("chrome");
         loginpage = new LoginPage();
     }
     @When("the user enters valid username {string} and password {string}")
@@ -35,8 +34,6 @@ public class LoginPageSteps extends BaseClass {
     public void login_should_fail_and_user_should_remain_on_the_login_page() {
         System.out.println(driver.getTitle());
     }
-
-
 
     @Then("the following ATM services should be displayed:")
     public void the_following_atm_services_should_be_displayed(DataTable dataTable) {
