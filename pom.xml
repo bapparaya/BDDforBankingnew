@@ -78,7 +78,7 @@
             <version>3.1.2</version>
             <configuration>
                 <includes>
-                    <include>**/*Runner.java</include>
+                    <include>**/*Banktest.java</include>
                 </includes>
             </configuration>
         </plugin>
